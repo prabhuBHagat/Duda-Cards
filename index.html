@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" href="./Scss/main.css">
+
+</head>
+
+<body>
+    <!-- Header-section -->
+
+    <section class="main_header">
+        <h1 class="main_header-heading">Combs Ranch</h1>
+        <div class="main_header-text">
+            <div class="main_header-city">
+                <p class="main_header-city-name">San Tan Valley, Arizona</p>
+                <h2 class="main_header-city-comm">2 communities</h2>
+            </div>
+            <button class="main_header-btn">EXPLORE MORE <span class="main_header-arrow">>></span></button>
+        </div>
+    </section>
+
+
+    <!------------------Card-Section------------------------------->
+
+    <section class="figure_setion">
+
+        <!-----------------------Second-CARD---------------------------- -->
+
+        <figure class="figure_card">
+            <div class="figure_card-header">
+                <a class="figure_card-text-Discovery" href="#">Combs Ranch Discovery Collection</a>
+                <a class="figure_card-text-selling" href="#"><i>Now Selling</i></a>
+            </div>
+            <img class="figure_card-image" src="./image/home-image.jpg" alt="Home Image">
+            <figcaption class="figure_card-caption">
+                <div class="figure_card-caption-tittle">
+                    <p class="figure_card-caption-price"><i>Priced from</i><span
+                            class="figure_card-caption-price-value">$399,990</span></p>
+                    <p class="figure_card-caption-city"><i>San Tan Valley, Arizona</i></p>
+                </div>
+            </figcaption>
+            <div class="figure_card-details">
+                <div class="figure_card-sqft">
+                    <p class="figure_card-sqft-value">1715-2,961</p>
+                    <p class="figure_card-sqft-value-text">Sq.Ft.</p>
+                </div>
+                <div class="figure_card-bed">
+                    <p class="figure_card-bed">3-6</p>
+                    <p class="figure_card-bed-text">Bed</p>
+                </div>
+                <div class="figure_card-bath">
+                    <p class="figure_card-bath">2-4</p>
+                    <p class="figure_card-bath-text">Bath</p>
+                </div>
+                <div class="figure_card-half-bath">
+                    <p class="figure_card-half-bath">0-1</p>
+                    <p class="figure_card-half-bath-text">Half Bath</p>
+                </div>
+            </div>
+            <a class="figure_card-view-coomunity" href="#open">VIEW COMMUNITY >></a>
+
+        </figure>
+
+        <!-----------------------Second-CARD----------------------------------------->
+
+        <figure class="figure_card">
+            <div class="figure_card-header">
+                <a class="figure_card-text-Discovery" href="#">Combs Ranch Discovery Collection</a>
+                <a class="figure_card-text-selling" href="#"><i>Now Selling</i></a>
+            </div>
+            <img class="figure_card-image" src="./image/home-image.jpg" alt="Home Image">
+            <figcaption class="figure_card-caption">
+                <div class="figure_card-caption-tittle">
+                    <p class="figure_card-caption-price"><i>Priced from</i><span
+                            class="figure_card-caption-price-value">$461,990</span></p>
+                    <p class="figure_card-caption-city"><i>San Tan Valley, Arizona</i></p>
+                </div>
+            </figcaption>
+            <div class="figure_card-details">
+                <div class="figure_card-sqft">
+                    <p class="figure_card-sqft-value">21,53-3,693</p>
+                    <p class="figure_card-sqft-value-text">Sq.Ft.</p>
+                </div>
+                <div class="figure_card-bed">
+                    <p class="figure_card-bed">2-6</p>
+                    <p class="figure_card-bed-text">Bed</p>
+                </div>
+                <div class="figure_card-bath">
+                    <p class="figure_card-bath">2-5</p>
+                    <p class="figure_card-bath-text">Bath</p>
+                </div>
+                <div class="figure_card-half-bath">
+                    <p class="figure_card-half-bath">0-1</p>
+                    <p class="figure_card-half-bath-text">Half Bath</p>
+                </div>
+            </div>
+            <a class="figure_card-view-coomunity" href="#open">VIEW COMMUNITY <span class="figure_card-arrow">>></span>
+            </a>
+
+        </figure>
+
+    </section>
+    <!------------------------Modal-Pop-up---------------------------------------->
+    <section id="open" class="modal_container">
+
+        <div class="modal_container-Items">
+            <div class="modal_container-header">
+                <p class="modal_container-heading">Request more Information</p>
+                <a href="#" class="modal_container-header-close-btn"><i
+                        class="fa-solid fa-xmark modal_container-icon"></i></a>
+            </div>
+            <form class="modal_container-form">
+                <input class="modal_container-first-name type=" text" placeholder="First Name" required autofocus>
+                <input class="modal_container-last-nametype=" text" placeholder="Last Name" required autofocus>
+                <input class="modal_container-email type=" email" placeholder="Email Address" required autofocus>
+                <input class="modal_container-number type=" phone" type="number" placeholder="Phone Number" required
+                    autofocus pattern="^[0-9]{6}$" title="Enter Valid Pin Code" minlength="3">
+                <input class="modal_container-zip-code type=" number" placeholder="Zip Code" required autofocus>
+            </form>
+            <textarea class="modal_container-textarea" placeholder="Question (optional)"></textarea>
+            <p class="modal_container-bottom">All fields are required unless marked optional</p>
+            <a class="modal_container-submit href=" #">submit</a>
+
+        </div>
+
+    </section>
+</body>
+
+</html>

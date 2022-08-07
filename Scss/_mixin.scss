@@ -1,0 +1,26 @@
+@mixin d-flex($display,$center,$align-item,$space-around,$space-between){
+    display: $display;
+    justify-content: $center;
+    align-items: $align-item;
+    justify-content: $space-around;   
+    justify-content: $space-between;
+   
+}
+
+@mixin  padding($p-top,$p-right,$p-bottom,$p-left) {
+    padding-top: $p-top;
+    padding-right: $p-right;
+    padding-bottom: $p-bottom;
+    padding-left: $p-left;
+}
+
+@mixin button($p-top-bottom,$p-left-right,$border,$letter-spacing,$height,$width) {
+     padding-top:$p-top-bottom ;
+     padding-bottom:$p-top-bottom ;
+     padding-left:$p-left-right ;
+     padding-right:$p-left-right ;
+     border: $border;
+     letter-spacing: $letter-spacing;
+     height:$height;
+     width:$width ;
+}
